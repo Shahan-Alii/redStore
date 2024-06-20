@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Red Store</title>
+        <link rel="stylesheet" href="style.css" />
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+        </style>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+    </head>
+    <body>
+        <section class="header">
+            <div class="container">
+                <div class="navbar">
+                    <div>
+                       <a href="index.html"> <img src="/images/logo.png" id="logo" /></a>
+                    </div>
+                   
+                   
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="products.html">PRODUCTS</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                            <li><a href="account.html">ACCOUNT</a></li>
+                        </ul>
+                    </nav>
+                    <a href="cart.html"> <img src="images/cart.png" id="cart" /></a>
+                    <a href="#"> <img src="images/menu.png" id="menu-button" onclick="menutoogle()"/></a>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <h1>
+                            GIVE YOUR WORKOUT <br />
+                            A NEW STYLE
+                        </h1>
+                        <p>
+                            Success isn't always about greatness. It's about
+                            consistency. Consistent <br />hard work gains
+                            Success. Greatness will come.
+                        </p>
+                        <a href="#" class="btn">EXPLORE NOW &#8594;</a>
+                    </div>
+                    <div class="col-2">
+                        <img src="images/image1.png" />
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- below landing page -->
+
+        <div class="row types">
+            <div class="col-3">
+                <img src="images/category-1.jpg" />
+                <img src="images/category-2.jpg" />
+                <img src="images/category-3.jpg" />
+            </div>
+        </div>
+
+        <!-- featured products -->
+
+        <div class="item-heading">
+            <h2>FEATURED PRODUCTS</h2>
+        </div>
+
+        <div class="featured-products featured">
+            <div class="featured-item">
+                <img src="/images/product-1.jpg" />
+                <h4>Printed Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star-half"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="featured-item">
+                <img src="/images/product-2.jpg" />
+                <h4>Printed Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="featured-item">
+                <img src="/images/product-3.jpg" />
+                <h4>Printed Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="featured-item">
+                <img src="/images/product-4.jpg" />
+                <h4>Printed Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+
+        <!-- latest products -->
+
+        <div class="item-heading">
+            <h2>LATEST PRODUCTS</h2>
+        </div>
+
+        <div class="latest">
+            <div class="latest-products">
+                <img src="/images/product-1.jpg" />
+                <h4>Printed Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="latest-products">
+                <img src="/images/product-2.jpg" />
+                <h4>Printed Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+
+            <div class="latest-products">
+                <img src="/images/product-3.jpg" />
+                <h4>Printed Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="latest-products">
+                <img src="/images/product-4.jpg" />
+                <h4>Printed Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="latest-products">
+                <img src="/images/product-4.jpg" />
+                <h4>Printed Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="latest-products">
+                <img src="/images/product-5.jpg" />
+                <h4>Printed Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="latest-products">
+                <img src="/images/product-6.jpg" />
+                <h4>Printed Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="latest-products">
+                <img src="/images/product-7.jpg" />
+                <h4>Printed Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="latest-products">
+                <img src="/images/product-8.jpg" />
+                <h4>Printed Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="latest-products">
+                <img src="/images/product-9.jpg" />
+                <h4>Printed Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="latest-products">
+                <img src="/images/product-10.jpg" />
+                <h4>Printed Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="latest-products">
+                <img src="/images/product-11.jpg" />
+                <h4>Printed Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+            <div class="latest-products">
+                <img src="/images/product-12.jpg" />
+                <h4>Printed Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                </div>
+                <p>$50.00</p>
+            </div>
+        </div>
+
+        <!-- offer  -->
+
+        <div class="offer">
+            <div class="offer-image">
+                <img src="/images/exclusive.png" />
+            </div>
+            <div class="offer-content">
+                <p>Exclusively available on Red Store</p>
+
+                <h1>Smart Band 4</h1>
+                <small>
+                    The Mi Smart Band 4 features a 39.9% larger (than Mi Band 3)
+                    AMOLED color <br />
+                    full-touch display with adjustable brightness, so everything
+                    is clear as can be.
+                </small>
+                <div><a href="#" class="btn">BUY NOW</a></div>
+            </div>
+        </div>
+
+        <!-- reviews  -->
+        <div class="reviews-container">
+            <div class="review">
+                <i class="fa fa-sharp fa-solid fa-quote-left" id="quote"></i>
+                <p>
+                    Red Store exceeded my expectations with their athlete items.
+                    The shirts and watch I ordered were of exceptional quality,
+                    and the designs were stylish. I was also pleasantly
+                    surprised by the fast shipping. I received my package in
+                    just a few days. Overall, a fantastic experience with Red
+                    Store!
+                </p>
+
+                <div class="rating">
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                </div>
+
+                <div class="review-img">
+                    <img src="/images/user-1.png" />
+                </div>
+            </div>
+
+            <div class="review">
+                <i class="fa fa-sharp fa-solid fa-quote-left" id="quote"></i>
+                <p>
+                    Red Store offers unbeatable prices on athlete items. I was
+                    able to find high-quality shirts and watches at affordable
+                    prices. The deals they have are incredible. If you're
+                    looking for budget-friendly options without compromising on
+                    quality, Red Store is the place to go!
+                </p>
+
+                <div class="rating">
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                </div>
+
+                <div class="review-img">
+                    <img src="/images/user-2.png" />
+                </div>
+            </div>
+
+            <div class="review">
+                <i class="fa fa-sharp fa-solid fa-quote-left" id="quote"></i>
+                <p>
+                    Red Store's customer service is top-notch. They were
+                    responsive and helpful when I had questions about sizing. I
+                    also had to return an item, and the return process was
+                    smooth and hassle-free. Red Store definitely values their
+                    customers and provides excellent support.
+                </p>
+
+                <div class="rating">
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                    <i class="fa fa-solid fa-star"></i>
+                </div>
+                <div class="review-img">
+                    <img src="/images/user-3.png" />
+                </div>
+            </div>
+        </div>
+
+        <!-- partners  -->
+        <div class="item-heading">
+            <h2>OUR PARTNERS</h2>
+        </div>
+
+        <div class="partners">
+            <img src="/brands/adidas.png" />
+            <img src="/brands/nike.png" />
+            <img src="/brands/mi.png" />
+            <img src="/brands/ck.jpeg" />
+        </div>
+
+        <!-- footer  -->
+
+        <footer>
+
+
+            <div class="footer">
+               
+               <div class="content">
+                
+                <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <small>Download App for Android and ios mobile phone.</small>
+                <div class="download-logos">
+
+                    <div class="ps">
+                        <img src="/images/app-store.png" />
+
+                    </div>
+                    <div class="as">
+                        
+                        <img src="/images/play-store.png" />
+                    </div>
+                </div>
+               </div>
+                <div class="footer-col-2">
+                <img src="/images/logo-white.png" />
+                <p>
+                    Our Purpose Is To Sustainably Make the <br> Pleasure and Benefits
+                    of Sports Accessible <br> to the Many.
+                </p>
+                </div>
+            <div class="footer-col-3">
+                <h3>USEFUL LINKS</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+            </div>
+            <div class="footer-col-4">
+                <h3>FOLLOW US</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+            </div>
+         </div>
+               
+
+<hr id="copyright-line">
+
+         <div class="copyright">
+            <small>
+                &copy; 2021 Red Store. All Rights Reserved.
+            </small>
+        </div>
+
+               
+            </div>
+
+        </footer>
+        
+
+
+
+
+
+
+<!-- js for toogle menu  -->
+
+
+<script>
+
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoogle() {
+        if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+        } else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+</script>
+
+
+    </body>
+</html>

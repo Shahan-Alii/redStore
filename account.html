@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>PRODUCTS</title>
+       
+        
+
+     
+
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;700&display=swap');
+        </style>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        />
+        <link rel="stylesheet" href="account.css">
+    </head>
+    <body>
+      
+           
+                <div class="navbar">
+                    <div>
+                        <a href="index.html"> <img src="/images/logo.png" id="logo" /></a>
+                    </div>
+                    <nav>
+                        <ul id="MenuItems">
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="products.html">PRODUCTS</a></li>
+                            <li><a href="#">ABOUT</a></li>
+                            <li><a href="#">CONTACT</a></li>
+                            <li><a href="#">ACCOUNT</a></li>
+                        </ul>
+                    </nav>
+                    <a href="cart.html"> <img src="images/cart.png" id="cart" /></a>
+                    <a href="#"> <img src="images/menu.png" id="menu-button" onclick="menutoogle()"/></a>
+                </div>
+               
+
+        
+       <!-- accoumt page -->
+
+
+
+<div class="container">
+
+<div id="img-acc">
+    <img src="images/image1.png" alt="home img">
+</div>
+<div class="acc-container">
+
+    <div class="form-btn">
+        <span onclick="login()">Login</span>
+        <span onclick="register()">Register</span>
+        <hr id="indicator">
+    </div>
+    
+    <form action="" id="login-form" class="accform">
+    
+    <input type="email" placeholder="email">
+    <input type="password" placeholder="password">
+    
+    <button>Login</button>
+    <a href="">Forgot password ?</a>
+    
+    </form>
+    
+    <form action="" id="register-form" class="accform">
+    
+    <input type="text" placeholder="username">
+    <input type="email" placeholder="email">
+    <input type="password" placeholder="password">
+    
+    <button>Register</button>
+    
+    
+    </form>
+    
+    
+    </div>
+    
+    
+
+
+</div>
+
+
+
+      
+
+        <!-- footer  -->
+
+        <footer>
+
+
+            <div class="footer">
+               
+               <div class="content">
+                
+                <div class="footer-col-1">
+                <h3>Download Our App</h3>
+                <small>Download App for Android and ios mobile phone.</small>
+                <div class="download-logos">
+
+                    <div class="ps">
+                        <img src="/images/app-store.png" />
+
+                    </div>
+                    <div class="as">
+                        
+                        <img src="/images/play-store.png" />
+                    </div>
+                </div>
+               </div>
+                <div class="footer-col-2">
+                <img src="/images/logo-white.png" />
+                <p>
+                    Our Purpose Is To Sustainably Make the <br> Pleasure and Benefits
+                    of Sports Accessible <br> to the Many.
+                </p>
+                </div>
+            <div class="footer-col-3">
+                <h3>USEFUL LINKS</h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+            </div>
+            <div class="footer-col-4">
+                <h3>FOLLOW US</h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>YouTube</li>
+            </div>
+         </div>
+               
+
+<hr id="copyright-line">
+
+         <div class="copyright">
+            <small>
+                &copy; 2021 Red Store. All Rights Reserved.
+            </small>
+        </div>
+
+               
+            </div>
+
+        </footer>
+        
+
+
+
+
+
+
+<!-- js for toogle menu  -->
+
+
+<script>
+
+    var MenuItems = document.getElementById("MenuItems");
+
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoogle() {
+        if (MenuItems.style.maxHeight == "0px") {
+            MenuItems.style.maxHeight = "200px";
+        } else {
+            MenuItems.style.maxHeight = "0px";
+        }
+    }
+
+
+let loginForm= document.getElementById("login-form");
+let regForm= document.getElementById("register-form");
+let indicator= document.getElementById("indicator");
+
+function login(){
+
+loginForm.style.transform="translateX(0px)";
+regForm.style.transform="translateX(300px)";
+indicator.style.transform="translateX(0px)";
+
+}
+
+function register(){
+
+loginForm.style.transform="translateX(-300px)";
+regForm.style.transform="translateX(0px)";
+indicator.style.transform="translateX(100px)";
+
+}
+
+
+</script>
+
+
+    </body>
+</html>

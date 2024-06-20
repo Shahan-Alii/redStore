@@ -1,0 +1,58 @@
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.latest {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    flex-wrap: wrap;
+    margin-left: 5%;
+}
+
+.latest img {
+    width: 220px;
+    height: 290px;
+    margin-top: 45px;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: transform 0.5s ease;
+}
+
+.page-btn span {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 30px 3px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+}
+
+.page-btn {
+    margin-left: 120px;
+    margin-top: 40px;
+}
+
+.page-btn span:hover {
+    color: white;
+    background-color: #ff523b;
+}
+
+.dropdown {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    width: 90%;
+    margin-right: 10px;
+    margin-left: 25px;
+}
+
+#filter {
+    font-size: 15px;
+    padding: 4px 3px;
+}
